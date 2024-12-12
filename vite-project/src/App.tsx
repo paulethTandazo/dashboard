@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     const request = async () => {
-      let API_KEY = "3f3a46be5b39afdf7737f3cc150923cb";
+      let API_KEY = "46d20fd8c8eaf99a8ba3ae02d09dc976";
       let response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Guayaquil&mode=xml&appid=${API_KEY}`);
       let savedTextXML = await response.text();
 
